@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CapstoneFragmentApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="back">Back</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="activity_landing_login">Login</string>
+
+    <string name="activity_shifts_heading_tv">Available shifts for:</string>
+    <string name="activity_shifts_get_shift">GET SHIFT</string>
+
+
+    <string name="activity_calendar_heading_tv">Calendar</string>
+    <string name="activity_calendar_create_shift">CREATE SHIFT</string>
+    <string name="activity_calendar_my_shifts">MY SHIFTS</string>
+
+
+
+    <string name="activity_create_shift_create_quiz_here">Create shift here</string>
+    <string name="activity_create_shift_title">Title</string>
+    <string name="activity_create_shift_start_time">Start time</string>
+    <string name="activity_create_shift_end_time">End time</string>
+    <string name="activity_create_shift_date">Date</string>
+    <string name="activity_create_shift_employee">Employee e-mail (optional)</string>
+    <string name="activity_create_shift_school">School name</string>
+    <string name="activity_create_shift_day">DAY</string>
+    <string name="activity_create_shift_month">MONTH</string>
+    <string name="activity_create_shift_year">YEAR</string>
+    <string name="successfully_created_shift">Shift created</string>
+
+    <!-- Algemeen -->
+    <string name="sign_out">Sign out</string>
+    <string name="shifts_test">Shifts test</string>
+
+
+</resources>

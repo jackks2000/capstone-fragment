@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.capstonefragmentapp.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_shiftsFragment"
+            app:destination="@id/shiftsFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_myShiftsFragment"
+            app:destination="@id/myShiftsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shiftsFragment"
+        android:name="com.example.capstonefragmentapp.ShiftsFragment"
+        android:label="fragment_shifts"
+        tools:layout="@layout/fragment_shifts" >
+        <action
+            android:id="@+id/action_shiftsFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_shiftsFragment_to_createShiftFragment"
+            app:destination="@id/createShiftFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createShiftFragment"
+        android:name="com.example.capstonefragmentapp.CreateShiftFragment"
+        android:label="CreateShiftFragment" >
+        <action
+            android:id="@+id/action_createShiftFragment_to_shiftsFragment"
+            app:destination="@id/shiftsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myShiftsFragment"
+        android:name="com.example.capstonefragmentapp.MyShiftsFragment"
+        android:label="MyShiftsFragment" >
+        <action
+            android:id="@+id/action_myShiftsFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
+</navigation>
